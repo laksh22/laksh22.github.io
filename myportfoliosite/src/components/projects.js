@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 
 class Projects extends Component {
   render(){
-    return{
+    return(
       <div>
         <h1>My Projects</h1>
       </div>
-    }
+    )
   }
 }
 
