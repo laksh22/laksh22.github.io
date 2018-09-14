@@ -59,3 +59,7 @@
   width: 20%;
   margin: auto;
 }
+
+.projects-grid {
+  display: flex;
+}
