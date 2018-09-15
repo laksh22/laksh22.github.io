@@ -9,7 +9,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             {/*Avatar Image*/}
             <img
-              src="https://media.licdn.com/dms/image/C5103AQH9Rz9MwQV79g/profile-displayphoto-shrink_200_200/0?e=1542240000&v=beta&t=qEG-kjICyL1vKB3zFEMojatSdYozcGfSfXIGd9tIUDc"
+              src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
               alt="avatar"
               className="avatar-image"
             />
