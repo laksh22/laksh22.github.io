@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import Education from './education';
+import Experience from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
   render(){
@@ -38,8 +41,41 @@ class Resume extends Component {
             </div>
           </Cell>
 
-          <Cell className='resume-right-side' col={4}>
-            
+          <Cell className='resume-right-side' col={8}>
+            <h2>Education</h2>
+            <Education
+            startYear={2050}
+            endYear={2054}
+            schoolName='Nanyang Technological University'
+            schoolDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis'/>
+
+            <hr style={{borderTop: '3px solid #e22947'}}/>
+
+            <h2>Experience</h2>
+            <Experience
+            startYear={2060}
+            endYear={2061}
+            jobName='Web Developer, Internet'
+            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis'/>
+
+            <h2>Experience</h2>
+            <Experience
+            startYear={2061}
+            endYear={2068}
+            jobName='App Developer, App Store'
+            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis'/>
+
+            <hr style={{borderTop: '3px solid #e22947'}}/>
+            <h2>Skills</h2>
+            <Skills
+            skill="Web Development"
+            progress={55}
+            />
+            <Skills
+            skill="C++"
+            progress={30}
+            />
+
           </Cell>
 
         </Grid>
