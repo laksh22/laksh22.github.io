@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell, ProgressBar} from 'react-mdl';
 
+//This is used as a skills bar in the resume section
 class Skills extends Component{
   render() {
     return(

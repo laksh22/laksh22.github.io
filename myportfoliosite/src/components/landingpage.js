@@ -14,7 +14,7 @@ class LandingPage extends Component {
               className="avatar-image"
             />
 
-            {/*Banner containing skills*/}
+            {/*Black banner containing skills*/}
             <div className="banner-text">
               <h1>Web Developer | App Developer</h1>
               <hr/>

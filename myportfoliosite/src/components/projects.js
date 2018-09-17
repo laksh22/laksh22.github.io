@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import { Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import ProjectCard from './project_card';
 
 class Projects extends Component {
+  //Initializing the current tab as 0 on page load
   constructor(props) {
     super(props);
     this.state = {
@@ -9,124 +11,88 @@ class Projects extends Component {
     };
   }
 
+  //A function which records and returns the content of each tab
   toggleCategories() {
+    {/*For 1st tab*/}
     if(this.state.activeTab === 0){
       return(
+
         <div className='projects-grid'>
-        <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-          <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>Web Dev Project #1</CardTitle>
-          <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>Site</Button>
-          </CardActions>
-          <CardMenu style={{color:'#fff'}}>
-            <IconButton name='share' />
-          </CardMenu>
-        </Card>
+        <ProjectCard
+        url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+        projectDescription = 'Web Dev Project #1'
+        link1 = 'GitHub'
+        link2 = 'Link'
+        />
 
-        <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-          <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>Web Dev Project #2</CardTitle>
-          <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>Site</Button>
-          </CardActions>
-          <CardMenu style={{color:'#fff'}}>
-            <IconButton name='share' />
-          </CardMenu>
-        </Card>
+        <ProjectCard
+        url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+        projectDescription = 'Web Dev Project #2'
+        link1 = 'GitHub'
+        link2 = 'Link'
+        />
 
-        <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-          <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>Web Dev Project #3</CardTitle>
-          <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>Site</Button>
-          </CardActions>
-          <CardMenu style={{color:'#fff'}}>
-            <IconButton name='share' />
-          </CardMenu>
-        </Card>
-      </div>
+        <ProjectCard
+        url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+        projectDescription = 'Web Dev Project #3'
+        link1 = 'GitHub'
+        link2 = 'Link'
+        />
+        </div>
+
       )} else if(this.state.activeTab === 1) {
+
         return(
           <div className='projects-grid'>
-          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-            <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>App Dev Project #1</CardTitle>
-            <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Site</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
 
-          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-            <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>App Dev Project #2</CardTitle>
-            <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Site</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
+          <ProjectCard
+          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+          projectDescription = 'App Dev Project #1'
+          link1 = 'GitHub'
+          link2 = 'Link'
+          />
 
-          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-            <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>App Dev Project #3</CardTitle>
-            <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Site</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
+          <ProjectCard
+          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+          projectDescription = 'App Dev Project #1'
+          link1 = 'GitHub'
+          link2 = 'Link'
+          />
+
+          <ProjectCard
+          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+          projectDescription = 'App Dev Project #1'
+          link1 = 'GitHub'
+          link2 = 'Link'
+          />
           </div>
         )
       } else if(this.state.activeTab === 2) {
+
         return(
           <div className='projects-grid'>
-          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-            <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>Project #1</CardTitle>
-            <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Site</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
 
-          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-            <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>Project #2</CardTitle>
-            <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Site</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
+          <ProjectCard
+          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+          projectDescription = 'Project #1'
+          link1 = 'GitHub'
+          link2 = 'Link'
+          />
 
-          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-            <CardTitle style={{color:'#fff', height:'176px', background: 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'}}>Project #3</CardTitle>
-            <CardText>Lorem ipsum dolor sit amet. This is some sample text.</CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Site</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
+          <ProjectCard
+          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+          projectDescription = 'Project #1'
+          link1 = 'GitHub'
+          link2 = 'Link'
+          />
+
+
+          <ProjectCard
+          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
+          projectDescription = 'Project #1'
+          link1 = 'GitHub'
+          link2 = 'Link'
+          />
           </div>
       )}
   }
