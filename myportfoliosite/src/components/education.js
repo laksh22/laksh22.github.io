@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 
+{/*This component will be used in the Resume section*/}
+{/*Properties of this component are - startYear, endYear, schoolName and schoolDescription which must be defined on component creation*/}
 class Education extends Component{
   render() {
     return(

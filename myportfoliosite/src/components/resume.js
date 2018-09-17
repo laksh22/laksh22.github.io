@@ -8,6 +8,9 @@ class Resume extends Component {
   render(){
     return(
       <div>
+
+        {/*There are 2 columns called Cells*/}
+        {/*The left Cell occupies 4 React columns*/}
         <Grid>
           <Cell className = 'resume-left-side' col={4}>
             <div style={{textAlign: 'center'}}>
@@ -20,27 +23,32 @@ class Resume extends Component {
               <h2 style={{paddingTop: '2em'}}>Your Name</h2>
               <h4 style={{color: 'grey'}}>Programmer</h4>
 
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis,
               fermentum pretium arcu. Vivamus hendrerit ornare sagittis. Pellentesque quam lorem, facilisis vitae pellentesque vel,
               dapibus quis felis. </p>
 
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
 
+              {/*Address*/}
               <h5>Block 123, Random Street, 123456</h5>
+              {/*Phone number*/}
               <h5>Phone</h5>
               <p>(+65) 1234 5678</p>
+              {/*Email Address*/}
               <h5>Email</h5>
               <p>email@example.com</p>
+              {/*Github link*/}
               <h5>Github</h5>
               <p>github.com/you</p>
 
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
 
             </div>
           </Cell>
 
+          {/*The right cell occupies 8 React columns*/}
           <Cell className='resume-right-side' col={8}>
             <h2>Education</h2>
             <Education
@@ -67,6 +75,9 @@ class Resume extends Component {
 
             <hr style={{borderTop: '3px solid #e22947'}}/>
             <h2>Skills</h2>
+
+            {/*Skills is a user made component used to show progress out of 100*/}
+
             <Skills
             skill="Web Development"
             progress={55}

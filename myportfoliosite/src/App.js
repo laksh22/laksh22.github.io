@@ -1,3 +1,4 @@
+//Entry point for website
 import React, { Component } from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
@@ -6,22 +7,23 @@ import {Link} from 'react-router-dom';
 
 class App extends Component {
   render() {
+          {/*This section creates the Layout of the website from React-MDL*/}
     return (
-      <div className="demo-big-content">
+    <div className="demo-big-content">
     <Layout>
         <Header className="header-colour" title={<Link style={{textDecoration: 'none', color:'white'}} to='/'>My Portfolio</Link>} scroll>
             <Navigation>
+            {/*This is the list of links in the navigation bar*/}
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color:'grey'}} to='/'>My Portfolio</Link>}>
             <Navigation>
+            {/*This is the list of links in the side menu*/}
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>

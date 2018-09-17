@@ -1,3 +1,4 @@
+/*LANDING PAGE*/
 .header-colour {
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
@@ -59,10 +60,13 @@
   width: 20%;
   margin: auto;
 }
+/*LANDING PAGE*/
 
+/*PROJECTS PAGE*/
 .projects-grid {
   display: flex;
 }
+/*PROJECTS PAGE*/
 
 /*CONTACT PAGE*/
 .contact-body {

@@ -1,14 +1,17 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 
+
 class Contact extends Component {
   render(){
     return(
       <div className='contact-body'>
         <Grid className='contact-grid'>
           <Cell col={6}>
-
+            {/*React divides a page into 12 columns.*/}
+            {/*Our columns will span 6 React columns each - there will be 2 columns occupying half of the page each*/}
             <h2>Your Name</h2>
+            {/*This is the image on the left hand column*/}
             <img
               src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
               alt="avatar"
@@ -25,6 +28,7 @@ class Contact extends Component {
             <div className='contact-list'>
             <List>
               <ListItem>
+              {/*This is the List Item for the phone number*/}
                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                 <i className="fa fa-phone-square" aria-hidden="True" />
                 +12 3456 7890
@@ -32,6 +36,7 @@ class Contact extends Component {
               </ListItem>
 
               <ListItem>
+              {/*This is the list item for the email*/}
                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                 <i className="fa fa-envelope" aria-hidden="True" />
                 yourname@email.com
@@ -39,6 +44,7 @@ class Contact extends Component {
               </ListItem>
 
               <ListItem>
+              {/*This is the list item for the github account link*/}
                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                 <i className="fa fa-github" aria-hidden="True" />
                 github.com/username
