@@ -8,11 +8,11 @@ class ProjectCard extends Component{
   render() {
     return(
       <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-        <CardTitle style={{color:'#fff', height:'176px', background: this.props.url}}>Web Dev Project #1</CardTitle>
+        <CardTitle style={{color:'#fff', height:'176px', background: this.props.url}}>{this.props.projectName}</CardTitle>
         <CardText>{this.props.projectDescription}</CardText>
         <CardActions border>
-          <Button colored>{this.props.link1}</Button>
-          <Button colored>{this.props.link2}</Button>
+          <Button colored><a href={this.props.link1} target="_blank" rel="noopener noreferrer">{this.props.link1name}</a></Button>
+          <Button colored><a href={this.props.link2} target="_blank" rel="noopener noreferrer">{this.props.link2name}</a></Button>
         </CardActions>
         <CardMenu style={{color:'#fff'}}>
           <IconButton name='share' />

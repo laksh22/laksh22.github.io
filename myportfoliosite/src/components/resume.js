@@ -15,33 +15,32 @@ class Resume extends Component {
           <Cell className = 'resume-left-side' col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
+              src="https://media.licdn.com/dms/image/C5103AQH9Rz9MwQV79g/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=0XNS5SryQ31n5Fi9EcR-StvC1_Z0K4lK_Pb8D0LHqLI"
                 alt="avatar"
                 style={{height: '200px'}}
+                className="avatar-image"
               />
 
-              <h2 style={{paddingTop: '2em'}}>Your Name</h2>
+              <h2 style={{paddingTop: '2em'}}>Lakshyajeet Dwivedee</h2>
               <h4 style={{color: 'grey'}}>Programmer</h4>
 
               <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis,
-              fermentum pretium arcu. Vivamus hendrerit ornare sagittis. Pellentesque quam lorem, facilisis vitae pellentesque vel,
-              dapibus quis felis. </p>
+              <p>My name is Lakshyajeet Dwivedee and I am currently an undergraduate student at NTU. I am interested in app and web development and looking to gain more knowledge about AI and Computer Vision.</p>
 
               <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
 
               {/*Address*/}
-              <h5>Block 123, Random Street, 123456</h5>
+              {/*}<h5>Block 123, Random Street, 123456</h5>*/}
               {/*Phone number*/}
               <h5>Phone</h5>
-              <p>(+65) 1234 5678</p>
+              <p>(+65) 8506 2177</p>
               {/*Email Address*/}
               <h5>Email</h5>
-              <p>email@example.com</p>
+              <p>lakshyajeet22@gmail.com</p>
               {/*Github link*/}
               <h5>Github</h5>
-              <p>github.com/you</p>
+              <p>github.com/laksh22</p>
 
               <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
 
@@ -52,26 +51,31 @@ class Resume extends Component {
           <Cell className='resume-right-side' col={8}>
             <h2>Education</h2>
             <Education
-            startYear={2050}
-            endYear={2054}
+            startYear={2018}
+            endYear={'Current'}
             schoolName='Nanyang Technological University'
-            schoolDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis'/>
+            schoolDescription='Project Admin in the Open Source Society and the Virtual Community Manager of the NTU Entrepreneurhip Society'/>
 
             <hr style={{borderTop: '3px solid #e22947'}}/>
 
             <h2>Experience</h2>
             <Experience
-            startYear={2060}
-            endYear={2061}
-            jobName='Web Developer, Internet'
-            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis'/>
+            startYear={2018}
+            endYear={'Current'}
+            jobName='NTU Blockchain Society, Consulting – Tech Developer Track'
+            jobDescription='Learning blockchain development in bi-weekly workshops. Will be a member of a team of 5 that will develop blockchain solutions for external parties.'/>
 
-            <h2>Experience</h2>
             <Experience
-            startYear={2061}
-            endYear={2068}
-            jobName='App Developer, App Store'
-            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex metus, dignissim ac justo quis'/>
+            startYear={'2018, March'}
+            endYear={'2018, August'}
+            jobName='ACT Paper Wings, Tech Intern and Volunteer'
+            jobDescription='Designed mockups of e-commerce website for NGO using HTML, CSS, Bootstrap. Visited rural areas to teach how to make new recycled paper products to rural women.'/>
+
+            <Experience
+            startYear={'2017, March'}
+            endYear={'2017, December'}
+            jobName='Head of IT, TSRS-AMUN'
+            jobDescription='Designed website for a national debate conference from scratch. Administered website and saw to technical difficulties before, during, and after the conference.'/>
 
             <hr style={{borderTop: '3px solid #e22947'}}/>
             <h2>Skills</h2>
@@ -80,11 +84,31 @@ class Resume extends Component {
 
             <Skills
             skill="Web Development"
-            progress={55}
+            progress={60}
             />
             <Skills
-            skill="C++"
-            progress={30}
+            skill="Flutter"
+            progress={80}
+            />
+
+            <Skills
+            skill="Python"
+            progress={55}
+            />
+
+            <Skills
+            skill="Git"
+            progress={55}
+            />
+
+            <Skills
+            skill="Data Analysis"
+            progress={40}
+            />
+
+            <Skills
+            skill="3D Modelling"
+            progress={65}
             />
 
           </Cell>

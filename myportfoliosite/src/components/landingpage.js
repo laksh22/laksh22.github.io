@@ -9,7 +9,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             {/*Avatar Image*/}
             <img
-              src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
+              src="https://media.licdn.com/dms/image/C5103AQH9Rz9MwQV79g/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=0XNS5SryQ31n5Fi9EcR-StvC1_Z0K4lK_Pb8D0LHqLI"
               alt="avatar"
               className="avatar-image"
             />
@@ -24,12 +24,12 @@ class LandingPage extends Component {
               <div className="social-links">
 
                 {/*Linkedin*/}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer" >
+                <a href="https://www.linkedin.com/in/lakshyajeet-d-4a142712b/" target="_blank" rel="noopener noreferrer" >
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
                 {/*Github*/}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer" >
+                <a href="https://github.com/laksh22" target="_blank" rel="noopener noreferrer" >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 

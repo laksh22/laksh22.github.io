@@ -20,24 +20,12 @@ class Projects extends Component {
         <div className='projects-grid'>
         <ProjectCard
         url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-        projectDescription = 'Web Dev Project #1'
-        link1 = 'GitHub'
-        link2 = 'Link'
+        projectName = 'Portfolio Site'
+        projectDescription = 'This is my personal website made using React'
+        link1 = 'https://github.com/laksh22/portfolio-site'
+        link1name = 'GitHub'
         />
 
-        <ProjectCard
-        url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-        projectDescription = 'Web Dev Project #2'
-        link1 = 'GitHub'
-        link2 = 'Link'
-        />
-
-        <ProjectCard
-        url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-        projectDescription = 'Web Dev Project #3'
-        link1 = 'GitHub'
-        link2 = 'Link'
-        />
         </div>
 
       )} else if(this.state.activeTab === 1) {
@@ -46,24 +34,11 @@ class Projects extends Component {
           <div className='projects-grid'>
 
           <ProjectCard
-          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-          projectDescription = 'App Dev Project #1'
-          link1 = 'GitHub'
-          link2 = 'Link'
-          />
-
-          <ProjectCard
-          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-          projectDescription = 'App Dev Project #1'
-          link1 = 'GitHub'
-          link2 = 'Link'
-          />
-
-          <ProjectCard
-          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-          projectDescription = 'App Dev Project #1'
-          link1 = 'GitHub'
-          link2 = 'Link'
+          url = 'url(https://lh3.googleusercontent.com/XcLI7Y6AsW-1OLQxVB9HZu5F8PmIfyC70Doj2QoBzGbW-R94Eb2FySfFvfp7hb5ykodM=s360-rw) center / cover'
+          projectName = 'Alcove'
+          projectDescription = 'This is a book discussion social media app made using Flutter and Firebase'
+          link1name = 'Play Store'
+          link1 = 'https://play.google.com/store/apps/details?id=com.bookapp.alcove'
           />
           </div>
         )
@@ -73,25 +48,11 @@ class Projects extends Component {
           <div className='projects-grid'>
 
           <ProjectCard
-          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-          projectDescription = 'Project #1'
-          link1 = 'GitHub'
-          link2 = 'Link'
-          />
-
-          <ProjectCard
-          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-          projectDescription = 'Project #1'
-          link1 = 'GitHub'
-          link2 = 'Link'
-          />
-
-
-          <ProjectCard
-          url = 'url(https://react-etc.net/files/2017-12/react-hexagon.png) center / cover'
-          projectDescription = 'Project #1'
-          link1 = 'GitHub'
-          link2 = 'Link'
+          url = 'url(https://www.brandcrowd.com/gallery/brands/pictures/picture15089126812056.png) center / cover'
+          projectName = 'Kaggle Dataset Analysis'
+          projectDescription = 'This is a kaggle dataset that I helped analyse as a part of NTUOSSs HackOSS Program using Pandas.'
+          link1name = 'GitHub'
+          link1 = 'https://github.com/ntuoss/house-prices-advanced-regression-techniques'
           />
           </div>
       )}
