@@ -6,6 +6,8 @@ import registerServiceWorker from './registerServiceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import {BrowserRouter} from 'react-router-dom';
+import { unregister } from './registerServiceWorker';
 
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
-registerServiceWorker();
+unregister();
+//registerServiceWorker();

@@ -13,22 +13,20 @@ class Resume extends Component {
         {/*The left Cell occupies 4 React columns*/}
         <Grid>
           <Cell className = 'resume-left-side' col={4}>
-            <div style={{textAlign: 'center'}}>
+            <div className='resume-div'>
               <img
               src="https://media.licdn.com/dms/image/C5103AQH9Rz9MwQV79g/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=0XNS5SryQ31n5Fi9EcR-StvC1_Z0K4lK_Pb8D0LHqLI"
                 alt="avatar"
-                style={{height: '200px'}}
-                className="avatar-image"
               />
 
-              <h2 style={{paddingTop: '2em'}}>Lakshyajeet Dwivedee</h2>
-              <h4 style={{color: 'grey'}}>Programmer</h4>
+              <h2>Lakshyajeet Dwivedee</h2>
+              <h4>Programmer</h4>
 
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
+              <hr/>
 
               <p>My name is Lakshyajeet Dwivedee and I am currently an undergraduate student at NTU. I am interested in app and web development and looking to gain more knowledge about AI and Computer Vision.</p>
 
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
+              <hr/>
 
               {/*Address*/}
               {/*}<h5>Block 123, Random Street, 123456</h5>*/}
@@ -42,7 +40,7 @@ class Resume extends Component {
               <h5>Github</h5>
               <p>github.com/laksh22</p>
 
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft:'25%'}}/>
+              <hr/>
 
             </div>
           </Cell>
@@ -56,7 +54,7 @@ class Resume extends Component {
             schoolName='Nanyang Technological University'
             schoolDescription='Project Admin in the Open Source Society and the Virtual Community Manager of the NTU Entrepreneurhip Society'/>
 
-            <hr style={{borderTop: '3px solid #e22947'}}/>
+            <hr/>
 
             <h2>Experience</h2>
             <Experience
@@ -77,7 +75,7 @@ class Resume extends Component {
             jobName='Head of IT, TSRS-AMUN'
             jobDescription='Designed website for a national debate conference from scratch. Administered website and saw to technical difficulties before, during, and after the conference.'/>
 
-            <hr style={{borderTop: '3px solid #e22947'}}/>
+            <hr/>
             <h2>Skills</h2>
 
             {/*Skills is a user made component used to show progress out of 100*/}
