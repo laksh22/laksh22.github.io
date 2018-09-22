@@ -7,14 +7,14 @@ import {Card, CardTitle, CardActions, CardMenu, IconButton, Button, CardText, } 
 class ProjectCard extends Component{
   render() {
     return(
-      <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+      <Card shadow={5} className='project-card'>
         <CardTitle style={{color:'#fff', height:'176px', background: this.props.url}}>{this.props.projectName}</CardTitle>
         <CardText>{this.props.projectDescription}</CardText>
         <CardActions border>
-          <Button colored><a href={this.props.link1} target="_blank" rel="noopener noreferrer">{this.props.link1name}</a></Button>
-          <Button colored><a href={this.props.link2} target="_blank" rel="noopener noreferrer">{this.props.link2name}</a></Button>
+          <Button colored>{this.props.link1}</Button>
+          <Button colored>{this.props.link2}</Button>
         </CardActions>
-        <CardMenu style={{color:'#fff'}}>
+        <CardMenu className='project-card-menu '>
           <IconButton name='share' />
         </CardMenu>
       </Card>

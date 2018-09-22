@@ -1,4 +1,9 @@
 /*LANDING PAGE*/
+.landing-page-div {
+  width: 100%;
+  margin: auto;
+}
+
 .header-colour {
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
@@ -68,6 +73,17 @@
 }
 /*PROJECTS PAGE*/
 
+/*PROJECT CARD*/
+.project-card {
+  min-width:450;
+  margin:auto;
+}
+
+.project-card-menu {
+  color:#fff
+}
+/*PROJECT CARD*/
+
 /*CONTACT PAGE*/
 .contact-body {
   margin: auto;
@@ -86,6 +102,17 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+}
+
+.contact-cell p {
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.contact-list-item {
+  font-size: 30px;
+  font-family: 'Anton';
 }
 
 .contact-grid h2 {
@@ -115,4 +142,44 @@
   color: white;
   padding: 2em;
 }
+
+.school-name, .job-name {
+  margin-top: 0px;
+}
+
+.resume-div {
+  text-align: center
+}
+
+.resume-div img {
+  height: 200px
+}
+
+.resume-div h2 {
+  paddin-top: 2em;
+}
+
+.resume-div h4 {
+  color: grey
+}
+
+.resume-div hr {
+  border-top: 3px solid #833fb2;
+  width: 50%;
+  margin-left:25%;
+}
+
+.resume-right-side hr{
+  border-top: 3px solid #e22947;
+}
+
+.skills-div {
+  display: flex;
+}
+
+.skills-div ProgressBar{
+  margin: auto;
+   width: 75%;
+}
 /*RESUME PAGE*/
+
