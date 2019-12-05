@@ -1,4 +1,6 @@
 #main-section {
   width: 75%;
   float: right;
+  margin-right: -4%;
+  padding-left: 200px;
 }

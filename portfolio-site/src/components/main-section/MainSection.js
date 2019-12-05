@@ -6,14 +6,19 @@ class MainSection extends Component {
   render() {
     return (
       <div id="main-section">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <div>
+          <h1>
+            <strong>Lakshyajeet Dwivedee</strong>
+          </h1>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+        </div>
       </div>
     );
   }
