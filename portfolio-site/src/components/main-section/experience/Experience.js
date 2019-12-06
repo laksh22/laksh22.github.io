@@ -99,7 +99,7 @@ class Experience extends Component {
             <h3>
               {' '}
               <a
-                href="https://mae.ntu.edu.sg/Programmes/CurrentStudents/UG(Full-Time)/PDC/NVCars/Pages/NVX.aspx"
+                href="https://www.ntu.edu.sg/Pages/home.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
               >
