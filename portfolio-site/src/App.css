@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 
 body {
   background-color: #f4f4f4;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   color: #333;
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1em;
   margin: 0;
 }
 
 .App {
   display: inline;
+}
+
+p {
+  margin: 0.3em;
 }

@@ -5,8 +5,7 @@ class Card extends Component {
   render() {
     return (
       <div class="card">
-        <div>This is some sample text</div>
-        <div>This is some more sample text</div>
+        <div>{this.props.children}</div>
       </div>
     );
   }

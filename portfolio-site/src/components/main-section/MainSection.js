@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './MainSection.css';
-import Card from '../Card/Card';
+import Experience from './experience/Experience';
 
 class MainSection extends Component {
   render() {
@@ -10,14 +10,7 @@ class MainSection extends Component {
           <h1>
             <strong>Lakshyajeet Dwivedee</strong>
           </h1>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
+          <Experience></Experience>
         </div>
       </div>
     );
