@@ -17,3 +17,25 @@
   color: #c4c4c4;
   font-weight: 400;
 }
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 20px;
+  align-items: center;
+}
+
+#sidebar a {
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    width: 100%;
+    position: relative;
+  }
+}

@@ -26,7 +26,7 @@ class Experience extends Component {
           <div class="image">
             <img
               src={require('../../../assets/qwerty_thoughts_logo.jpg')}
-              alt="Qwerty Thoughts Logo"
+              alt="Qwerty Thoughts"
               height="130px"
             />
           </div>
@@ -72,7 +72,7 @@ class Experience extends Component {
           <div class="image">
             <img
               src={require('../../../assets/ntu_logo.png')}
-              alt="NTU Logo"
+              alt="NTU"
               height="130px"
             />
           </div>
@@ -114,7 +114,7 @@ class Experience extends Component {
           <div class="image">
             <img
               src={require('../../../assets/ntu_logo.png')}
-              alt="NTU Logo"
+              alt="NTU"
               height="130px"
             />
           </div>

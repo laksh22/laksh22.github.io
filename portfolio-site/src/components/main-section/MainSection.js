@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './MainSection.css';
 import Experience from './experience/Experience';
 import Summary from './summary/Summary';
+import Projects from './projects/Projects';
+import Education from './education/Education';
 
 class MainSection extends Component {
   render() {
@@ -13,6 +15,8 @@ class MainSection extends Component {
           </h1>
           <Summary></Summary>
           <Experience></Experience>
+          <Projects></Projects>
+          <Education></Education>
         </div>
       </div>
     );
