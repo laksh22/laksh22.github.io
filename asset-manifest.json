@@ -1,27 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.32305274.chunk.css",
-    "main.js": "/static/js/main.d83ca9ec.chunk.js",
-    "main.js.map": "/static/js/main.d83ca9ec.chunk.js.map",
+    "main.css": "/static/css/main.1565a23a.chunk.css",
+    "main.js": "/static/js/main.9379cfbb.chunk.js",
+    "main.js.map": "/static/js/main.9379cfbb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd550126.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd550126.js.map",
-    "static/js/2.51eb42b2.chunk.js": "/static/js/2.51eb42b2.chunk.js",
-    "static/js/2.51eb42b2.chunk.js.map": "/static/js/2.51eb42b2.chunk.js.map",
+    "static/js/2.0a2ea403.chunk.js": "/static/js/2.0a2ea403.chunk.js",
+    "static/js/2.0a2ea403.chunk.js.map": "/static/js/2.0a2ea403.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9caf6de5c9fe8d07e8f4f7530d726fb6.js": "/precache-manifest.9caf6de5c9fe8d07e8f4f7530d726fb6.js",
+    "precache-manifest.0edbb75c8b506cfa99503fa7811529a8.js": "/precache-manifest.0edbb75c8b506cfa99503fa7811529a8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.32305274.chunk.css.map": "/static/css/main.32305274.chunk.css.map",
-    "static/js/2.51eb42b2.chunk.js.LICENSE": "/static/js/2.51eb42b2.chunk.js.LICENSE",
+    "static/css/main.1565a23a.chunk.css.map": "/static/css/main.1565a23a.chunk.css.map",
+    "static/js/2.0a2ea403.chunk.js.LICENSE": "/static/js/2.0a2ea403.chunk.js.LICENSE",
+    "static/media/c++.png": "/static/media/c++.614e81bd.png",
+    "static/media/c.png": "/static/media/c.26603f18.png",
+    "static/media/css.png": "/static/media/css.a57aeaeb.png",
     "static/media/email_logo.png": "/static/media/email_logo.bd8d3345.png",
+    "static/media/es6.svg": "/static/media/es6.1f0e4175.svg",
+    "static/media/express.png": "/static/media/express.98ff4822.png",
+    "static/media/flutter.png": "/static/media/flutter.0b5a2f8d.png",
+    "static/media/html.png": "/static/media/html.a250ddbd.png",
+    "static/media/java.png": "/static/media/java.a7fd72b8.png",
+    "static/media/mongodb.png": "/static/media/mongodb.1546d23c.png",
+    "static/media/node.png": "/static/media/node.c502658a.png",
     "static/media/ntu_full_logo.jpg": "/static/media/ntu_full_logo.0158369f.jpg",
     "static/media/ntu_logo.png": "/static/media/ntu_logo.26e12437.png",
     "static/media/park_easy_logo.png": "/static/media/park_easy_logo.d5c2de86.png",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.e560b7b8.jpg"
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.e560b7b8.jpg",
+    "static/media/python.png": "/static/media/python.067050f6.png",
+    "static/media/react.png": "/static/media/react.47ce6e77.png",
+    "static/media/react_native.png": "/static/media/react_native.248cb156.png",
+    "static/media/redux.png": "/static/media/redux.82e31c5d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dd550126.js",
-    "static/js/2.51eb42b2.chunk.js",
-    "static/css/main.32305274.chunk.css",
-    "static/js/main.d83ca9ec.chunk.js"
+    "static/js/2.0a2ea403.chunk.js",
+    "static/css/main.1565a23a.chunk.css",
+    "static/js/main.9379cfbb.chunk.js"
   ]
 }
