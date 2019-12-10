@@ -1,0 +1,13 @@
+.skill-section {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  width: 20%;
+}
