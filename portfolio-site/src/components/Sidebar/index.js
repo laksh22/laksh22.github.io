@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
+import { FaGithub, FaLinkedin, FaEnvelope, FaLink } from "react-icons/fa";
 import './styles.css';
 
 class SideBar extends Component {
   render() {
     return (
       <div id="sidebar">
-        <h1>Lakshyajeet Dwivedee</h1>
-        <br />
         <img src={require('../../assets/profile-pic.jpg')} alt="Profile" />
         <br />
-        <h2>Web Development</h2>
-        <h2>App Development</h2>
-        <h2>Embedded Development</h2>
-        <br />
+        <h1>Lakshyajeet Dwivedee</h1>
+        <h2>
+          Full-Stack Software Engineer
+        </h2>
         <ul>
           <li>
             <a
@@ -20,11 +19,7 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={require('../../assets/github_logo.jpg')}
-                alt="Github"
-                height="70px"
-              />
+              <FaGithub size={28} /> github.com/laksh22
             </a>
           </li>
           <li>
@@ -33,11 +28,16 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={require('../../assets/linkedin_logo.png')}
-                alt="Linkedin"
-                height="70px"
-              />
+              <FaLinkedin size={28} /> linkedin.com/lakshyajeet-d
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://bit.ly/laksh22-resume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLink size={28} /> Resume
             </a>
           </li>
           <li>
@@ -46,25 +46,10 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={require('../../assets/email_logo.png')}
-                alt="Email"
-                height="70px"
-              />
+              <FaEnvelope size={28} /> Contact
             </a>
           </li>
         </ul>
-        <h2>
-          <strong>
-            <a
-              href="https://drive.google.com/open?id=1REB9Nht_--8D_1KLaViU-E-dU_fL2FbK"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-          </strong>
-        </h2>
       </div>
     );
   }
