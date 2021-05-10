@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Experience.css';
-import Card from '../../card/Card';
+import './styles.css';
+import Card from '../../Card';
 
 class Experience extends Component {
   render() {

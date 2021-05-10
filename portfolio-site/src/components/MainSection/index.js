@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './MainSection.css';
-import Experience from './experience/Experience';
-import Summary from './summary/Summary';
-import Projects from './projects/Projects';
-import Education from './education/Education';
-import Skills from './skills/Skills';
+import './styles.css';
+import Experience from './Experience';
+import Summary from './Summary';
+import Projects from './Projects';
+import Education from './Education';
+import Skills from './Skills';
 
 class MainSection extends Component {
   render() {
