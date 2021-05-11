@@ -28,7 +28,7 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={28} /> linkedin.com/lakshyajeet-d
+              <FaLinkedin size={28} /> linkedin.com/in/lakshyajeet-d
             </a>
           </li>
           <li>

@@ -3,136 +3,99 @@ import './styles.css';
 import Card from '../../Card';
 
 class Experience extends Component {
+  experienceList = [
+    {
+      link: "https://www.whizz.sg/",
+      title: "Whizz Mobility",
+      position: "Software Engineer (Part-Time)",
+      period: "Jan 2020 - Apr. 2021",
+      img: require("../../../assets/whizz.jpeg"),
+      description: [
+        "• Led product development of the fleet management platform by collborating with operations team.",
+        "• Created fleet management platform with robot HUD and mini-map using Mapbox, React, and Sass.",
+        "• Automated sending of delivery status to partner API using TypeScript, reducing delivery time by 20%.",
+        "• Decreased key encryption-decryption time by 70% by utilising SOPS and custom shell script alongside Husky post-merge hooks for automation.",
+      ]
+    },
+    {
+      link: "https://summerofcode.withgoogle.com/archive/2020/projects/5485976262017024/",
+      title: "Google Summer of Code",
+      position: "Open Source Developer",
+      period: "May 2020 - Aug. 2019",
+      img: require("../../../assets/gsoc.png"),
+      description: [
+        "• Developed UI using React and Redux for graphically constructing classification models.",
+        "• Designed SQL schemas to store model information in MySQL database.",
+        "• Created REST API using Flask for CRUD operations on models and model testing/training.",
+        "• Created ML pipeline for parsing SQL data and constructing models using Tensorflow.",
+        "Project - https://github.com/scorelab/LabelLab"
+      ]
+    },
+    {
+      link: "https://shopee.sg/",
+      title: "Shopee",
+      position: "Software Engineering Intern",
+      period: "May 2020 - Jul. 2019",
+      img: require("../../../assets/shopee.jpeg"),
+      description: [
+        "• Developed Badge component for component library using React, Sass, Flow, and Figma.",
+        "• Decreased component load times by 40% by adding code splitting to React components.",
+        "• Augmented scroll restoration using location keys, identified bottlenecks using Chrome Performance profiler.",
+        "• Enhanced repository by adding stylelint, CSS modules, and webpack plugins."
+      ]
+    },
+    {
+      link: "https://qwertythoughts.com",
+      title: "Qwerty Thoughts",
+      position: "Software Development Intern",
+      period: "May 2019 - Aug. 2019",
+      img: require("../../../assets/qwerty_thoughts_logo.jpg"),
+      description: [
+        "• Created a WYSIWYG text editor in React and used Axios for querying sentiment-analysis APIs.",
+        "• Utilized Bootstrap framework to improve user interface of the text-editor.",
+        "• Developed web-scraping scripts using Twitter API and Selenium to find trending topics.",
+        "• Used NLTK, spaCy and StanfordNLP for Named Entity Recognition of book topics."
+      ]
+    },
+  ];
+
   render() {
-    const experienceList = [
-      <Card>
+    const experienceList = this.experienceList.map(experience => {
+      return <Card>
         <div class="header">
           <div class="title">
             <h3>
               {' '}
               <a
-                href="https://qwertythoughts.com"
+                href={experience.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Qwerty Thoughts
-              </a>{' '}
+                {experience.title}
+              </a>{' - '}
+              {experience.position}
             </h3>
-            <h3>
-              <i>Software Development Intern</i>
-            </h3>
-            <h4>May 2019 - Aug. 2019</h4>
+            <h4>{experience.period}</h4>
           </div>
-          <div class="image">
-            <img
-              src={require('../../../assets/qwerty_thoughts_logo.jpg')}
-              alt="Qwerty Thoughts"
-              height="130px"
-            />
-          </div>
+          <img
+            class="image"
+            src={experience.img}
+            alt={experience.title}
+            height="80px"
+          />
         </div>
 
         <div className="description">
-          <p>
-            ▪ Created WYSIWYG text editor with 20 features in React using
-            Draft.js with Express back-end for querying APIs.{' '}
-          </p>
-          <p>
-            ▪ Utilized Bootstrap framework to improve user interface of the
-            text-editor.{' '}
-          </p>
-          <p>
-            ▪ Prepared web-scraping scripts using Twitter API and Selenium to
-            gain insights on book trends.
-          </p>
-          <p>
-            ▪ Conducted Named Entity Recognition using NLTK, spaCy and
-            StanfordNLP to extract topics from books.
-          </p>
-        </div>
-      </Card>,
-      <Card>
-        <div class="header">
-          <div class="title">
-            <h3>
-              {' '}
-              <a
-                href="https://mae.ntu.edu.sg/Programmes/CurrentStudents/UG(Full-Time)/PDC/NVCars/Pages/NVX.aspx"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Nanyang Venture
-              </a>{' '}
-            </h3>
-            <h3>
-              <i>Embedded Software Developer</i>
-            </h3>
-            <h4>Aug. 2019 - Present</h4>
-          </div>
-          <div class="image">
-            <img
-              src={require('../../../assets/ntu_logo.png')}
-              alt="NTU"
-              height="130px"
-            />
-          </div>
-        </div>
-
-        <div className="description">
-          <p>
-            ▪ Developed interrupt-based RTOS mechanism to transfer ultrasonic
-            data in C++ for Autonomous Vehicle.{' '}
-          </p>
-          <p>
-            ▪ Built custom power-meter with increased accuracy using ADC for
-            Hydrogen Fuel Cell Vehicle.{' '}
-          </p>
-          <p>
-            ▪ Made C++ script to log Battery Management System data over CAN bus
-            to SD card.
-          </p>
-        </div>
-      </Card>,
-      <Card>
-        <div class="header">
-          <div class="title">
-            <h3>
-              {' '}
-              <a
-                href="https://www.ntu.edu.sg/Pages/home.aspx"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Nanyang Technological University
-              </a>{' '}
-            </h3>
-            <h3>
-              <i>Undergraduate Researcher</i>
-            </h3>
-            <h4>Aug. 2019 - Present</h4>
-          </div>
-          <div class="image">
-            <img
-              src={require('../../../assets/ntu_logo.png')}
-              alt="NTU"
-              height="130px"
-            />
-          </div>
-        </div>
-
-        <div className="description">
-          <p>
-            ▪ Developed car-tracking algorithms using YOLO, Haar Cascade, and
-            HOG.{' '}
-          </p>
-          <p>
-            ▪ Prepared foreground and background extraction scripts using OpenCV
-            in Python.{' '}
-          </p>
-          <p>▪ Researched on Generative Adversarial Networks using PyTorch.</p>
+          {
+            experience.description.map(description => {
+              return <p>
+                {description}
+              </p>
+            })
+          }
         </div>
       </Card>
-    ];
+    })
 
     return (
       <div>

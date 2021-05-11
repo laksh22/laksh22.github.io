@@ -1,3 +1,13 @@
 a {
   text-decoration: none;
 }
+
+.header {
+  line-height: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .header {
+  line-height: 2em;
+}
+}
