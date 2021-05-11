@@ -4,6 +4,11 @@
   padding-left: 200px;
 }
 
+h2 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
 @media (max-width: 768px) {
   #main-section {
     width: 100%;

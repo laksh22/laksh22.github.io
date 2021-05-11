@@ -4,7 +4,6 @@ import Experience from './Experience';
 import Summary from './Summary';
 import Projects from './Projects';
 import Education from './Education';
-import Skills from './Skills';
 
 class MainSection extends Component {
   render() {
@@ -15,7 +14,6 @@ class MainSection extends Component {
             <strong>Lakshyajeet Dwivedee</strong>
           </h1>
           <Summary></Summary>
-          <Skills></Skills>
           <Experience></Experience>
           <Projects></Projects>
           <Education></Education>

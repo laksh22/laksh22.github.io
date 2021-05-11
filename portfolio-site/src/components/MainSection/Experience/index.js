@@ -15,7 +15,8 @@ class Experience extends Component {
         "• Created fleet management platform with robot HUD and mini-map using Mapbox, React, and Sass.",
         "• Automated sending of delivery status to partner API using TypeScript, reducing delivery time by 20%.",
         "• Decreased key encryption-decryption time by 70% by utilising SOPS and custom shell script alongside Husky post-merge hooks for automation.",
-      ]
+      ],
+      tech: "React, Redux, Sass, TypeScript, Node.js, Express",
     },
     {
       link: "https://summerofcode.withgoogle.com/archive/2020/projects/5485976262017024/",
@@ -29,7 +30,8 @@ class Experience extends Component {
         "• Created REST API using Flask for CRUD operations on models and model testing/training.",
         "• Created ML pipeline for parsing SQL data and constructing models using Tensorflow.",
         "Project - https://github.com/scorelab/LabelLab"
-      ]
+      ],
+      tech: "JavaScript (ES6), React, Redux, TensorFlow, Flask, SQL",
     },
     {
       link: "https://shopee.sg/",
@@ -42,7 +44,8 @@ class Experience extends Component {
         "• Decreased component load times by 40% by adding code splitting to React components.",
         "• Augmented scroll restoration using location keys, identified bottlenecks using Chrome Performance profiler.",
         "• Enhanced repository by adding stylelint, CSS modules, and webpack plugins."
-      ]
+      ],
+      tech: "JavaScript (ES6), React, Sass, Flow, Webpack",
     },
     {
       link: "https://qwertythoughts.com",
@@ -55,7 +58,8 @@ class Experience extends Component {
         "• Utilized Bootstrap framework to improve user interface of the text-editor.",
         "• Developed web-scraping scripts using Twitter API and Selenium to find trending topics.",
         "• Used NLTK, spaCy and StanfordNLP for Named Entity Recognition of book topics."
-      ]
+      ],
+      tech: "JavaScript (ES6), React, Draft.js, Selenium, Python",
     },
   ];
 
@@ -93,6 +97,7 @@ class Experience extends Component {
               </p>
             })
           }
+          <p class="tech-stack">Tech Stack: {experience.tech}</p>
         </div>
       </Card>
     })
@@ -100,7 +105,6 @@ class Experience extends Component {
     return (
       <div>
         <h2>Experience</h2>
-        <hr />
         {experienceList}
       </div>
     );

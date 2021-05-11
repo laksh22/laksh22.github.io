@@ -6,8 +6,12 @@ a {
   line-height: 0.5em;
 }
 
+.tech-stack {
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .header {
-  line-height: 2em;
-}
+    line-height: 2em;
+  }
 }
