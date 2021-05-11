@@ -1,10 +1,11 @@
 #summary {
-  width: 70%;
+  width: 80%;
   margin: auto;
-  background-color: #b1b1b1;
-  border-radius: 18px;
-  font-size: 18px;
-  color: #444;
-  padding: 10px;
-  line-height: 1.3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.2em;
+}
+
+#summary p {
+  margin: 1em 0;
 }

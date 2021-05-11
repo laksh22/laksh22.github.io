@@ -5,18 +5,32 @@ class Summary extends Component {
   render() {
     return (
       <div id="summary">
-        <p>Hello and welcome to my personal website!</p>
-        <p>
-          I'm a second year undergraduate student at{' '}
+        <p>👋 Hello, I'm Laksh! I'm a final-year student at Nanyang Technological University, Singapore where I am majoring
+        in Computer Engineering. I like to build applications using my knowledge of full-stack development and
+        machine learning.
+        </p>
+        <p>My resume can be found
           <a
-            href="https://www.ntu.edu.sg/Pages/home.aspx"
+            href="http://bit.ly/laksh22-resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          > here </a>
+        and some of my projects can be found
+        <a
+            href="https://github.com/laksh22"
+            target="_blank"
+            rel="noopener noreferrer"
+          > here</a>.
+        </p>
+        <p>
+          <a
+            href="mailto:lakshyajeet22@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            NTU
-          </a>{' '}
-          majoring in Computer Engineering. I'm passionate about full-stack web
-          and app development as well as the field of autonomous vehicles.
+            Drop me a line{" "}
+          </a>
+          if you would like to get in touch!
         </p>
       </div>
     );

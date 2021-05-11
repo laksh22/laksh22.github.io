@@ -9,9 +9,6 @@ class MainSection extends Component {
     return (
       <div id="main-section">
         <div>
-          <h1>
-            <strong>Lakshyajeet Dwivedee</strong>
-          </h1>
           <Summary></Summary>
           <Education></Education>
           <Experience></Experience>
