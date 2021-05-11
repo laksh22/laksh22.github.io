@@ -10,7 +10,7 @@ a {
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 909px) {
   .header {
     line-height: 2em;
   }

@@ -14,9 +14,9 @@ class MainSection extends Component {
             <strong>Lakshyajeet Dwivedee</strong>
           </h1>
           <Summary></Summary>
+          <Education></Education>
           <Experience></Experience>
           <Projects></Projects>
-          <Education></Education>
         </div>
       </div>
     );
