@@ -19,7 +19,7 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={28} /> github.com/laksh22
+              <FaGithub size={28} /> <p>github.com/laksh22</p>
             </a>
           </li>
           <li>
@@ -28,7 +28,7 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={28} /> linkedin.com/in/lakshyajeet-d
+              <FaLinkedin size={28} /> <p>linkedin.com/in/lakshyajeet-d</p>
             </a>
           </li>
           <li>
@@ -37,7 +37,7 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLink size={28} /> Resume
+              <FaLink size={28} /> <p>Resume</p>
             </a>
           </li>
           <li>
@@ -46,7 +46,7 @@ class SideBar extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaEnvelope size={28} /> Contact
+              <FaEnvelope size={28} /> <p>Contact</p>
             </a>
           </li>
         </ul>
