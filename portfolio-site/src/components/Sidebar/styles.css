@@ -53,7 +53,7 @@
   color: inherit;
 }
 
-@media (max-width: 1100px) and (min-width: 768px){
+@media (max-width: 1100px) and (min-width: 769px){
   #sidebar p {
     font-size: 0 !important;
   }
@@ -67,5 +67,14 @@
   #sidebar {
     width: 100%;
     position: relative;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  #sidebar > img {
+    border-radius: 4px;
+    width: 30%;
   }
 }
