@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bf1e8f1.chunk.css",
-    "main.js": "/static/js/main.5439db60.chunk.js",
-    "main.js.map": "/static/js/main.5439db60.chunk.js.map",
+    "main.css": "/static/css/main.fadc7bb9.chunk.css",
+    "main.js": "/static/js/main.328f2a00.chunk.js",
+    "main.js.map": "/static/js/main.328f2a00.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd550126.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd550126.js.map",
     "static/js/2.30e194f5.chunk.js": "/static/js/2.30e194f5.chunk.js",
     "static/js/2.30e194f5.chunk.js.map": "/static/js/2.30e194f5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5405df9df9dcc6819499d591650eb9bd.js": "/precache-manifest.5405df9df9dcc6819499d591650eb9bd.js",
+    "precache-manifest.8e0d79113e13f58beec23cdccc42b671.js": "/precache-manifest.8e0d79113e13f58beec23cdccc42b671.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3bf1e8f1.chunk.css.map": "/static/css/main.3bf1e8f1.chunk.css.map",
+    "static/css/main.fadc7bb9.chunk.css.map": "/static/css/main.fadc7bb9.chunk.css.map",
     "static/js/2.30e194f5.chunk.js.LICENSE": "/static/js/2.30e194f5.chunk.js.LICENSE",
     "static/media/gsoc.png": "/static/media/gsoc.0e89fe00.png",
     "static/media/ntu_full_logo.jpg": "/static/media/ntu_full_logo.0158369f.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.dd550126.js",
     "static/js/2.30e194f5.chunk.js",
-    "static/css/main.3bf1e8f1.chunk.css",
-    "static/js/main.5439db60.chunk.js"
+    "static/css/main.fadc7bb9.chunk.css",
+    "static/js/main.328f2a00.chunk.js"
   ]
 }
