@@ -25,6 +25,7 @@ class Education extends Component {
             <ul>
               <li>4.77/5.00 GPA</li>
               <li>Accelerated Bachelor’s Program</li>
+              <li>Elective Focus in Artificial Intelligence</li>
               <li>NTU President Research Scholar - Computer Vision Undergraduate Researcher (AY19/20)</li>
               <li>
                 NTU Open Source Society – President(AY20/21), TGIFHacks Chair (AY19/20), HackOSS Admin for Data Analysis
