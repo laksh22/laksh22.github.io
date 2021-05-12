@@ -17,7 +17,7 @@ class Education extends Component {
 
     return (
       <div className="education">
-        <h2>Education</h2>
+        <h2>🎓 Education</h2>
         <div className="education-details">
           <div className="education-info">
             <h3 className="uni">Nanyang Technological University</h3>

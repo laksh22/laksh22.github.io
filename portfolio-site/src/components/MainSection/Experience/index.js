@@ -104,7 +104,7 @@ class Experience extends Component {
 
     return (
       <div>
-        <h2>Experience</h2>
+        <h2>💻 Experience</h2>
         {experienceList}
       </div>
     );
