@@ -11,7 +11,7 @@ class Experience extends Component {
       period: "Jan 2020 - Apr. 2021",
       img: require("../../../assets/whizz.jpeg"),
       description: [
-        "• Led product development of the fleet management platform by collborating with operations team.",
+        "• Led product development of the fleet management platform by collaborating with operations team.",
         "• Created fleet management platform with robot HUD and mini-map using Mapbox, React, and Sass.",
         "• Automated sending of delivery status to partner API using TypeScript, reducing delivery time by 20%.",
         "• Decreased key encryption-decryption time by 70% by utilising SOPS and custom shell script alongside Husky post-merge hooks for automation.",
