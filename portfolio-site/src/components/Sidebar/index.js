@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaLink } from "react-icons/fa";
-import './styles.css';
+import "./styles.css";
 
 class SideBar extends Component {
   render() {
     return (
       <div id="sidebar">
-        <img src={require('../../assets/profile-pic.jpg')} alt="Profile" />
+        <img src={require("../../assets/profile-pic.jpg")} alt="Profile" />
         <br />
         <h1>Lakshyajeet Dwivedee</h1>
-        <h2>
-          Full-Stack Software Engineer
-        </h2>
+        <h2>Full-Stack Software Engineer</h2>
         <ul>
           <li>
             <a
@@ -33,7 +31,7 @@ class SideBar extends Component {
           </li>
           <li>
             <a
-              href="http://bit.ly/laksh22-resume"
+              href="https://rebrand.ly/laksh-resume"
               target="_blank"
               rel="noopener noreferrer"
             >
